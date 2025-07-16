@@ -1,0 +1,27 @@
+<!-- 12 cookies here and each of them can be clicked 4 times, when you click on one a modal window appears with a quote and then it changes the cookie picture -->
+<!-- When a cookie is clicked on it makes a chomp sound (I have a file called bite.mp3 for this) -->
+<!-- For the cookies i have a folder called img and in there i have cookie1.png for the start, cookie2.png for the first bite, cookie3.png for the 2nd bite -->
+<!-- cookie4.png for the 3rd bite and then crumbs.png for the 4th and last bite -->
+
+
+
+<!-- After all the cookies have been "eaten" then scroll down here and display text -->
+
+<!-- 
+
+<div class="h-screen grid grid-rows-2 grid-cols-6 md:grid-rows-2 md:grid-cols-6 gap-4 place-items-center px-4">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie1">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie2">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie3">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie4">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie5">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie6">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie7">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie8">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie9">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie10">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie11">
+    <img src="static/cookie1.png" alt="Cookie" class="w-full max-w-[70px]" id="cookie12">
+</div>
+
+-->
