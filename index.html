@@ -39,21 +39,21 @@
 
     <!-- Cookies Grid -->
     <div class="h-screen flex flex-col justify-evenly">
-        <div class="flex flex-row justify-between">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie1">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie2">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie3">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie4">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie5">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie6">
+        <div class="grid grid-cols-2 sm:grid-cols-6 gap-x-4 justify-items-center">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie1">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie2">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie3">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie4">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie5">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie6">
         </div>
-        <div class="flex flex-row justify-between">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie7">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie8">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie9">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie10">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie11">
-            <img src="static/cookie1.png" alt="Cookie" class="w-1/12" id="cookie12">
+        <div class="grid grid-cols-2 sm:grid-cols-6 gap-x-4 justify-items-center">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie7">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie8">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie9">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie10">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie11">
+            <img src="static/cookie1.png" alt="Cookie" class="w-16 sm:w-24" id="cookie12">
         </div>
     </div>
 
@@ -80,12 +80,54 @@
         const closeModal = document.getElementById("closeModal");
 
         const quotes = [
-            "Quote 1", "Quote 2", "Quote 3", "Quote 4", "Quote 5", "Quote 6", "Quote 7", "Quote 8",
-            "Quote 9", "Quote 10", "Quote 11", "Quote 12", "Quote 13", "Quote 14", "Quote 15", "Quote 16",
-            "Quote 17", "Quote 18", "Quote 19", "Quote 20", "Quote 21", "Quote 22", "Quote 23", "Quote 24",
-            "Quote 25", "Quote 26", "Quote 27", "Quote 28", "Quote 29", "Quote 30", "Quote 31", "Quote 32",
-            "Quote 33", "Quote 34", "Quote 35", "Quote 36", "Quote 37", "Quote 38", "Quote 39", "Quote 40",
-            "Quote 41", "Quote 42", "Quote 43", "Quote 44", "Quote 45", "Quote 46", "Quote 47", "Quote 48"
+            "Quote 1", 
+            "Quote 2", 
+            "Quote 3", 
+            "Quote 4", 
+            "Quote 5", 
+            "Quote 6", 
+            "Quote 7", 
+            "Quote 8",
+            "Quote 9", 
+            "Quote 10", 
+            "Quote 11", 
+            "Quote 12", 
+            "Quote 13", 
+            "Quote 14", 
+            "Quote 15", 
+            "Quote 16",
+            "Quote 17", 
+            "Quote 18", 
+            "Quote 19", 
+            "Quote 20", 
+            "Quote 21", 
+            "Quote 22", 
+            "Quote 23", 
+            "Quote 24",
+            "Quote 25", 
+            "Quote 26", 
+            "Quote 27", 
+            "Quote 28", 
+            "Quote 29", 
+            "Quote 30", 
+            "Quote 31", 
+            "Quote 32",
+            "Quote 33", 
+            "Quote 34", 
+            "Quote 35", 
+            "Quote 36", 
+            "Quote 37", 
+            "Quote 38", 
+            "Quote 39", 
+            "Quote 40",
+            "Quote 41", 
+            "Quote 42", 
+            "Quote 43", 
+            "Quote 44", 
+            "Quote 45", 
+            "Quote 46", 
+            "Quote 47", 
+            "Quote 48"
         ];
 
         let quoteIndex = 0;

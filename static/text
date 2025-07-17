@@ -25,3 +25,31 @@
 </div>
 
 -->
+
+<!-- Mobile -->
+     <div class="h-screen flex md:hidden flex-col justify-evenly">
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie1">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie2">
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie3">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie4">
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie5">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie6">
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie7">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie8">
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie9">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie10">
+        </div>
+        <div class="flex flex-row justify-evenly">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie11">
+            <img src="static/cookie1.png" alt="Cookie" class="w-1/4" id="cookie12">
+        </div>
+    </div>
